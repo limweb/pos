@@ -1,0 +1,34 @@
+footer .wave {
+  background: url(wave.png);
+  background-size: 1000px 100px;
+}
+
+footer .wave#wave1 {
+  animation: animateWare 4s linear infinite;
+}
+footer .wave#wave2 {
+  animation: animateWare_02 4s linear infinite;
+}
+footer .wave#wave3 {
+  animation: animateWare 3s linear infinite;
+}
+footer .wave#wave4 {
+  animation: animateWare_02 3s linear infinite;
+}
+
+@keyframes animateWare {
+  0% {
+      background-position-x: 1000px;
+  }
+  100% {
+      background-position-x: 0px;
+  }
+}
+@keyframes animateWare_02 {
+  0% {
+      background-position-x: 0px;
+  }
+  100% {
+      background-position-x: 1000px;
+  }
+}
